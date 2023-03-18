@@ -2,9 +2,11 @@
 #include <string>
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int strStr(string haystack, string needle) {
-        
+    int strStr(string haystack, string needle)
+    {
+        return haystack.find(needle);
     }
 };
