@@ -1,4 +1,4 @@
-from sol import Solution
+from solution import Solution
 
 x = Solution()
 
