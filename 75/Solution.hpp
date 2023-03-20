@@ -18,7 +18,7 @@ public:
         }
         arr.clear();
         arr.resize(redCount, RED);
-        arr.resize(whiteCount, WHITE);
-        arr.resize(blueCount, BLUE);
+        arr.resize(redCount + whiteCount, WHITE);
+        arr.resize(redCount + whiteCount + blueCount, BLUE);
     }
 };
