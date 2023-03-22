@@ -13,4 +13,6 @@
 | [75](75)| Sort Colors |
 | [119](119)| Pascal's Triangle II |
 | [136](136)| Single Number |
+| [137](137)| Single Number II |
+| [138](138)| Random Pointer |
 | [169](169)| Majority Element|
