@@ -22,6 +22,11 @@ class Solution
 public:
     Node *copyRandomList(Node *head)
     {
-        
+        Node* copy = nullptr;
+
+        while(head)
+        {
+            
+        }
     }
 };
