@@ -15,4 +15,5 @@
 | [136](136)| Single Number |
 | [137](137)| Single Number II |
 | [138](138)| Random Pointer |
+| [140](140)| Work Break II |
 | [169](169)| Majority Element|
