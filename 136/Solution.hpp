@@ -1,3 +1,13 @@
+/**
+ * @file Solution.hpp
+ * @author Angel Badillo Hernandez (https://github.com/It-Is-Legend27)
+ * @brief Solution to LeetCode Problem 136.
+ * @version 0.1
+ * @date 2023-03-21
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #pragma once
 #include <vector>
 #include <unordered_map>
