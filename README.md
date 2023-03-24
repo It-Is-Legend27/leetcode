@@ -1,10 +1,11 @@
 # Problems
 
-| Folder Link | Problem Title                                     |
-| ----------- | ------------------------------------------------- |
+| Folder Link    | Problem Title                                     |
+| -----------    | ------------------------------------------------- |
 | [1](1)         | Two Sum                                           |
 | [2](2)         | Add Two Numbers                                   |
 | [7](7)         | Reverse Integer                                   |
+| [8](8)         | String to Integer (atoi)                          |
 | [9](9)         | Palindrome Number                                 |
 | [27](27)       | Remove Element                                    |
 | [28](28)       | Find the index of the First Occurence in a String |
