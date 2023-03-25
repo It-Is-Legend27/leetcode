@@ -10,84 +10,45 @@
  */
 #pragma once
 #include <string>
-#include <regex>
 using namespace std;
 
 class Solution
 {
 public:
-    bool isOverflow(int x)
-    {
-        return (((INT_MAX) / 10) < x && x > 0);
-    }
-
-    bool isUnderflow(int x)
-    {
-        return ((INT_MIN / 10) > x && x < 0);
-    }
-
-    string trimLeadingWS(const std::string &str)
-    {
-        return std::regex_replace(str, std::regex("^ +"), "");
-    }
-
-    bool isInt(const string& s)
-    {
-        // False if empty string
-        if(s.empty())
-        return false;
-
-        // If first char is not sign or digit, false
-        if(s[0] != '-' && s[0] != '+' && !isdigit(s[0]))
-        return false;
-
-        // If preceeding char is not digit, false
-        if(s.begin()+1 == s.end() || !isdigit(*(s.begin()+1)))
-        return false;
-
-        return true;
-    }
-
     int myAtoi(string s)
     {
-        s = trimLeadingWS(s);
-
-        if(!isInt(s))
-        return 0;
-
-        int result = 0;
+        int size = s.size();
+        long double result = 0;
+        int idx = 0;
         bool isNegative;
 
-        // Determine if integer is positive or negative,
-        // remove sign char if exists
-        switch (s[0])
+        while (s[idx] == ' ')
+            idx++;
+
+        switch (s[idx])
         {
-        case '-':
-            isNegative = true; s = s.substr(1);
-            break;
         case '+':
-            isNegative = false; s = s.substr(1);
+            isNegative = false;
+            idx++;
+            break;
+        case '-':
+            isNegative = true;
+            idx++;
             break;
         default:
-            isNegative = false;
             break;
         }
-        
-        // Convert string to int
-        for (auto &&c : s)
+
+        for (; idx < size && s[idx] >= '0' && s[idx] <= '9'; idx++)
         {
-            if(isOverflow(-result))
-            return INT_MAX;
-
-            if(isUnderflow(result))
-            return INT_MIN;
-
-            if(!isdigit(c))
-            return result;
-
-            result = result * 10 + (c - '0');
+            result = result * 10 + (s[idx] - '0');
         }
 
-        return (isNegative) ? result*-1 : result;
+        result = isNegative ? -result : result;
+
+        result = (result > INT_MAX) ? INT_MAX : result;
+        result = (result < INT_MIN) ? INT_MIN : result;
+
+        return int(result);
     }
 };

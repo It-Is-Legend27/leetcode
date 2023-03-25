@@ -16,5 +16,5 @@ using namespace std;
 int main()
 {
     Solution s;
-    cout << s.myAtoi("   -42") << '\n';
+    cout << s.myAtoi("4193 with words") << '\n';
 }
