@@ -7,6 +7,7 @@
 | [7](7)         | Reverse Integer                                   |
 | [8](8)         | String to Integer (atoi)                          |
 | [9](9)         | Palindrome Number                                 |
+| [13](13)| Roman to Integer |
 | [27](27)       | Remove Element                                    |
 | [28](28)       | Find the index of the First Occurence in a String |
 | [29](29)       | Divide Two Integers                               |
