@@ -2,7 +2,7 @@
 /**
  * @file Solution.hpp
  * @author Angel Badillo Hernandez (https://github.com/It-Is-Legend27)
- * @brief Solution to LeetCode Problem 169.
+ * @brief Solution to LeetCode Problem 240.
  * @version 0.1
  * @date 2023-03-27
  * 

@@ -1,9 +1,9 @@
 /**
  * @file main.cpp
  * @author Angel Badillo Hernandez (https://github.com/It-Is-Legend27)
- * @brief Solution to LeetCode Problem 240.
+ * @brief Solution to LeetCode Problem 704.
  * @version 0.1
- * @date 2023-03-27
+ * @date 2023-03-31
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -16,6 +16,6 @@ using namespace std;
 int main()
 {
     Solution s;
-    vector<vector<int>> M = {{0,1}, {2,4}};
-    cout << s.searchMatrix(M,2) << '\n';
+    vector<int> A = {1,2,3,4,5,6};
+    cout << s.search(A, 4) << '\n';
 }
