@@ -13,6 +13,7 @@
 | [29](29)       | Divide Two Integers                               |
 | [50](50)       | Pow(x,n)                                          |
 | [56](56)       | Merge Inteverals                                  |
+| [66](66)       | Plus One                                          |
 | [67](67)       | Add Binary                                        |
 | [75](75)       | Sort Colors                                       |
 | [119](119)     | Pascal's Triangle II                              |
