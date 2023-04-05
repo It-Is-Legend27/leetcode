@@ -10,8 +10,10 @@
 | [13](13)       | Roman to Integer                                  |
 | [27](27)       | Remove Element                                    |
 | [28](28)       | Find the index of the First Occurence in a String |
+| [29](29)       | Divide Two Integers                               |
 | [50](50)       | Pow(x,n)                                          |
 | [56](56)       | Merge Inteverals                                  |
+| [66](66)       | Plus One                                          |
 | [67](67)       | Add Binary                                        |
 | [75](75)       | Sort Colors                                       |
 | [119](119)     | Pascal's Triangle II                              |
@@ -21,3 +23,4 @@
 | [140](140)     | Work Break II                                     |
 | [169](169)     | Majority Element                                  |
 | [237](237)     | Delete Node in a Linked List                      |
+| [704](704)     | Binary Search                                     |
