@@ -15,6 +15,7 @@
 | [56](56)       | Merge Inteverals                                  |
 | [66](66)       | Plus One                                          |
 | [67](67)       | Add Binary                                        |
+| [74](74)       | Search a 2D Matrix                                |
 | [75](75)       | Sort Colors                                       |
 | [119](119)     | Pascal's Triangle II                              |
 | [136](136)     | Single Number                                     |
