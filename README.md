@@ -23,4 +23,5 @@
 | [138](138)     | Random Pointer                                    |
 | [140](140)     | Work Break II                                     |
 | [169](169)     | Majority Element                                  |
+| [237](237)     | Delete Node in a Linked List                      |
 | [704](704)     | Binary Search                                     |
