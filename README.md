@@ -26,3 +26,5 @@
 | [234](234)     | Palindrome Linked List                            |
 | [237](237)     | Delete Node in a Linked List                      |
 | [704](704)     | Binary Search                                     |
+| [1863](1863)   | Sum of All Subset XOR Totals                      |
+| [2390](2390)   | Removing Stars From a String                      |
