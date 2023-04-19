@@ -5,18 +5,22 @@
 /// ##### Copyright (c) 2023 
 
 class Solution {
-  /// Removes all star characters in string [text] and character
-  /// to the left of each star. Returns resulting string.
+  /// Removes all asterisk characters in string [text] and character
+  /// to the left of each asterisk. Returns resulting string.
   String removeStars(String text) {
-    List<String> chars = text.split('');
-    /// Index of first instance of star in text.
-    int loc = chars.indexOf('*');
-    /// Loop until no more stars in text.
-    while (loc != -1) {
-      /// Replace preceeding character and star with empty string.
-      chars.removeRange(loc-1, loc+1);
-      loc = chars.indexOf('*');
+    /// Convert to string to codeUnits
+    List<int> chars = text.codeUnits;
+    List<int> stack = [];
+
+    /// Iterate through the codeUnits, remove last character if current is an asterisk.
+    for (int i = 0; i < chars.length; i++) {
+      if(chars[i] == 42)
+      stack.removeLast();
+      else
+      stack.add(chars[i]);
     }
-    return chars.join();
+    
+    /// Convert codeUnits back to string  
+    return String.fromCharCodes(stack);
   }
 }
