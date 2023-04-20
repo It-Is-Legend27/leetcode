@@ -1,3 +1,8 @@
+/// ## Angel Badillo Hernandez (https://github.com/It-Is-Legend27)
+/// #### Solution to LeetCode Problem 415.
+/// ##### version 0.1
+/// ##### 2023-04-19
+/// ##### Copyright (c) 2023
 function addStrings(num1: string, num2: string): string {
     let result = '';
     let carry = 0;
@@ -28,5 +33,3 @@ function addStrings(num1: string, num2: string): string {
     }
     return res;
 }
-
-console.log(addStrings('1', '159'));
