@@ -1,0 +1,15 @@
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.csproj.AssemblyReference.cache
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.AssemblyInfoInputs.cache
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.AssemblyInfo.cs
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.csproj.CoreCompileInputs.cache
+C:\Users\badil\source\repos\leetcode\1089\bin\Debug\net7.0\1089.exe
+C:\Users\badil\source\repos\leetcode\1089\bin\Debug\net7.0\1089.deps.json
+C:\Users\badil\source\repos\leetcode\1089\bin\Debug\net7.0\1089.runtimeconfig.json
+C:\Users\badil\source\repos\leetcode\1089\bin\Debug\net7.0\1089.dll
+C:\Users\badil\source\repos\leetcode\1089\bin\Debug\net7.0\1089.pdb
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.dll
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\refint\1089.dll
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.pdb
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\1089.genruntimeconfig.cache
+C:\Users\badil\source\repos\leetcode\1089\obj\Debug\net7.0\ref\1089.dll

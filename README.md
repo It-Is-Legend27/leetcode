@@ -31,6 +31,7 @@
 | [415](415)     | Add Strings                                       |
 | [455](455)     | Assign Cookies                                    |
 | [704](704)     | Binary Search                                     |
+| [1089](1089)   | Duplicate Zeros                                   |
 | [1572](1572)   | Matrix Diagonal Sum                               |
 | [1863](1863)   | Sum of All Subset XOR Totals                      |
 | [2390](2390)   | Removing Stars From a String                      |
