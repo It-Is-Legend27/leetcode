@@ -1,4 +1,5 @@
-﻿void DuplicateZeros(int[] arr)
+﻿using System;
+void DuplicateZeros(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {

@@ -1,4 +1,7 @@
-﻿int RemoveDuplicates(ref int[] nums)
+﻿using System;
+using System.Collections.Generic;
+
+int RemoveDuplicates(ref int[] nums)
 {
     SortedSet<int> unique = new();
     
