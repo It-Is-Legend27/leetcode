@@ -18,6 +18,7 @@
 | [67](67)       | Add Binary                                        |
 | [74](74)       | Search a 2D Matrix                                |
 | [75](75)       | Sort Colors                                       |
+| [80](80)       | Remove Duplicates From Sorted Array II            |
 | [119](119)     | Pascal's Triangle II                              |
 | [136](136)     | Single Number                                     |
 | [137](137)     | Single Number II                                  |
