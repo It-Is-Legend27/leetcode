@@ -13,29 +13,42 @@ public:
         int k = (nums.begin() != nums.end());
         auto it2 = nums.begin();
 
-        for (auto it1 = nums.begin(); it1 != nums.end() - 1; ++it1)
+        for (auto it1 = nums.begin(); it1 < nums.end() - 1; ++it1)
         {
             int count = 0;
             while ((*it1) == (*it2) && it2 != nums.end() - 1)
             {
-                if (count < 2)
-                    ++count;
+                count++;
                 it2++;
+
+                cout << "count "<< count << endl;
             }
 
             if (it2 < nums.end() && *it1 != *it2 && it1 != it2)
             {
+                if(count <= 2){
                 *(it1 + count) = *it2;
-                k++;
+                it1+= count-1;
+                k+= count;
+                }
+                else{
+                *(it1 + 2) = *it2;
+                it1+=1;
+                k+=2;
+                }
             }
             else
             {
                 it1 = nums.end() - 2;
             }
 
-            it1 += count;
+            for(auto i: nums)
+            {
+                cout << i << ' ';
+            }
+            cout << endl;
         }
 
-        return k;
+        return k+1;
     }
 };
