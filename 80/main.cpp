@@ -6,7 +6,7 @@ int main()
 
     Solution s;
 
-    s.removeDuplicates(nums);
+    cout << s.removeDuplicates(nums) << endl;
 
     for (auto &&i : nums)
     {

@@ -9,46 +9,27 @@ class Solution
 public:
     int removeDuplicates(vector<int> &nums)
     {
+        auto l = nums.begin(), r = nums.begin(), n = nums.end();
 
-        int k = (nums.begin() != nums.end());
-        auto it2 = nums.begin();
-
-        for (auto it1 = nums.begin(); it1 < nums.end() - 1; ++it1)
+        while(r != n)
         {
-            int count = 0;
-            while ((*it1) == (*it2) && it2 != nums.end() - 1)
-            {
-                count++;
-                it2++;
+            int count = 1;
 
-                cout << "count "<< count << endl;
-            }
-
-            if (it2 < nums.end() && *it1 != *it2 && it1 != it2)
+            while(r + 1 != n && *r == *(r+1))
             {
-                if(count <= 2){
-                *(it1 + count) = *it2;
-                it1+= count-1;
-                k+= count;
-                }
-                else{
-                *(it1 + 2) = *it2;
-                it1+=1;
-                k+=2;
-                }
-            }
-            else
-            {
-                it1 = nums.end() - 2;
+                ++r;
+                ++count;
             }
 
-            for(auto i: nums)
+            for(int i = 0; i < min(2,count); ++i)
             {
-                cout << i << ' ';
+                *l = *r;
+                ++l;
             }
-            cout << endl;
+
+            ++r;
         }
 
-        return k+1;
+        return l - nums.begin();
     }
 };
