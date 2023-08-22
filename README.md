@@ -20,6 +20,7 @@
 | [75](75)       | Sort Colors                                       |
 | [80](80)       | Remove Duplicates From Sorted Array II            |
 | [119](119)     | Pascal's Triangle II                              |
+| [125](125)     | Valid Palindrome                                  |
 | [136](136)     | Single Number                                     |
 | [137](137)     | Single Number II                                  |
 | [138](138)     | Random Pointer                                    |
