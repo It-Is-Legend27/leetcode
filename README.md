@@ -30,6 +30,7 @@
 | [234](234)     | Palindrome Linked List                            |
 | [237](237)     | Delete Node in a Linked List                      |
 | [240](240)     | Search a 2D Matrix II                             |
+| [392](392)     | Is Subsequence                                    |
 | [415](415)     | Add Strings                                       |
 | [455](455)     | Assign Cookies                                    |
 | [704](704)     | Binary Search                                     |
